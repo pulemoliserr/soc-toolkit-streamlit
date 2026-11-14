@@ -305,4 +305,8 @@ with tab_perm:
                f"g={perm_string(octal)[3:6].replace('-', '')} o={perm_string(octal)[6:9].replace('-', '')}")
 
 st.divider()
-st.caption("Built with Streamlit · Synthetic data only · Source code on GitHub")
+st.caption(
+    "Built with Streamlit · Synthetic data only · "
+    "[Source code on GitHub](https://github.com/pulemoliserr/soc-toolkit-streamlit) · "
+    "[Portfolio](https://pulemolise.net/cybersecurity/)"
+)
