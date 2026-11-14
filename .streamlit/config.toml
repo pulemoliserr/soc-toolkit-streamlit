@@ -1,7 +1,17 @@
+# Light and dark themes. The app follows the visitor's system setting;
+# anyone can switch with the System / Light / Dark buttons in the app menu (⋮).
+
 [theme]
-base = "dark"
+font = "sans serif"
+
+[theme.light]
+primaryColor = "#0B7A71"             # darker teal: 5.2:1 contrast on white
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EEF2F7"
+textColor = "#0B1320"
+
+[theme.dark]
 primaryColor = "#2EC4B6"
 backgroundColor = "#0B1320"
 secondaryBackgroundColor = "#14213D"
 textColor = "#E6EDF3"
-font = "sans serif"

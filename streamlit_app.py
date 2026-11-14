@@ -76,6 +76,7 @@ st.caption(
     "Interactive demos of security-analyst tasks: log investigation with SQL, packet-capture "
     "triage, access-list automation and Linux permissions. All data is synthetic."
 )
+st.caption("🌗 Switch between light and dark mode in the menu (⋮, top right).")
 
 tab_sql, tab_pcap, tab_allow, tab_perm = st.tabs(
     ["🔎 Login investigation (SQL)", "📡 tcpdump triage", "📋 Allow-list updater", "🐧 Linux permissions"]
