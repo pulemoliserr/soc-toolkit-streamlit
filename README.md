@@ -30,6 +30,8 @@ streamlit run streamlit_app.py
 
 ## Notes
 
+- **Light and dark mode:** the app follows the visitor's system setting, and anyone can switch with the System / Light / Dark buttons in the app menu (⋮, top right). Both themes are set in `.streamlit/config.toml`.
+
 - All data is **synthetic**: the login database is generated with a fixed seed, and the captures use documentation IP ranges.
 - The custom SQL box only accepts a single `SELECT` statement against an in-memory database.
 - Ideas to extend it: a phishing-URL feature checker, a CVSS score calculator, a MITRE ATT&CK lookup for detections, and an upload option for real `.pcap` files (using `scapy`).
