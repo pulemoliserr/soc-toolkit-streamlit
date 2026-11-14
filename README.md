@@ -1,5 +1,9 @@
 # 🛡️ SOC Analyst Toolkit
 
+**Live app:** https://soc-toolkit-app-dretcu92wwz45erfqw5ab3.streamlit.app/
+
+Part of my cybersecurity portfolio: [project write-up](https://pulemolise.net/cybersecurity/soc-analyst-toolkit/) · [pulemolise.net](https://pulemolise.net)
+
 An interactive Streamlit app that turns my Google Cybersecurity Certificate projects into working tools:
 
 | Tab | What it shows | Related portfolio project |
@@ -23,7 +27,6 @@ streamlit run streamlit_app.py
 
 1. Push this folder to a public GitHub repository.
 2. Go to <https://share.streamlit.io>, choose **New app**, and select the repo, the branch and `streamlit_app.py`.
-3. Add the live link to your GitHub README, your CV, LinkedIn and your website.
 
 ## Notes
 
